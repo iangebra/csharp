@@ -1,0 +1,15 @@
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\ConsoleApp02\bin\Debug\net6.0\zadaca 1 - druga znamenka.exe
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\ConsoleApp02\bin\Debug\net6.0\zadaca 1 - druga znamenka.deps.json
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\ConsoleApp02\bin\Debug\net6.0\zadaca 1 - druga znamenka.runtimeconfig.json
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\ConsoleApp02\bin\Debug\net6.0\zadaca 1 - druga znamenka.dll
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\ConsoleApp02\bin\Debug\net6.0\zadaca 1 - druga znamenka.pdb
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\ConsoleApp02\obj\Debug\net6.0\zadaca 1 - druga znamenka.csproj.AssemblyReference.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\ConsoleApp02\obj\Debug\net6.0\zadaca 1 - druga znamenka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\ConsoleApp02\obj\Debug\net6.0\zadaca 1 - druga znamenka.AssemblyInfoInputs.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\ConsoleApp02\obj\Debug\net6.0\zadaca 1 - druga znamenka.AssemblyInfo.cs
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\ConsoleApp02\obj\Debug\net6.0\zadaca 1 - druga znamenka.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\ConsoleApp02\obj\Debug\net6.0\zadaca 1 - druga znamenka.dll
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\ConsoleApp02\obj\Debug\net6.0\refint\zadaca 1 - druga znamenka.dll
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\ConsoleApp02\obj\Debug\net6.0\zadaca 1 - druga znamenka.pdb
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\ConsoleApp02\obj\Debug\net6.0\zadaca 1 - druga znamenka.genruntimeconfig.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\ConsoleApp02\obj\Debug\net6.0\ref\zadaca 1 - druga znamenka.dll
