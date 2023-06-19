@@ -1,0 +1,15 @@
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\s nastave\bin\Debug\net6.0\s nastave.exe
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\s nastave\bin\Debug\net6.0\s nastave.deps.json
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\s nastave\bin\Debug\net6.0\s nastave.runtimeconfig.json
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\s nastave\bin\Debug\net6.0\s nastave.dll
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\s nastave\bin\Debug\net6.0\s nastave.pdb
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\s nastave\obj\Debug\net6.0\s nastave.csproj.AssemblyReference.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\s nastave\obj\Debug\net6.0\s nastave.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\s nastave\obj\Debug\net6.0\s nastave.AssemblyInfoInputs.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\s nastave\obj\Debug\net6.0\s nastave.AssemblyInfo.cs
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\s nastave\obj\Debug\net6.0\s nastave.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\s nastave\obj\Debug\net6.0\s nastave.dll
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\s nastave\obj\Debug\net6.0\refint\s nastave.dll
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\s nastave\obj\Debug\net6.0\s nastave.pdb
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\s nastave\obj\Debug\net6.0\s nastave.genruntimeconfig.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console02\s nastave\obj\Debug\net6.0\ref\s nastave.dll

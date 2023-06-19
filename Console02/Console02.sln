@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zadaca 1 - druga znamenka", "ConsoleApp02\zadaca 1 - druga znamenka.csproj", "{3CA45975-84CC-4BEA-88DA-FCDED9A67329}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zadaca 1 - druga znamenka", "ConsoleApp02\zadaca 1 - druga znamenka.csproj", "{3CA45975-84CC-4BEA-88DA-FCDED9A67329}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "s nastave", "s nastave\s nastave.csproj", "{6B60E240-9660-48AD-A019-96B2B4A2098B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3CA45975-84CC-4BEA-88DA-FCDED9A67329}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CA45975-84CC-4BEA-88DA-FCDED9A67329}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CA45975-84CC-4BEA-88DA-FCDED9A67329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B60E240-9660-48AD-A019-96B2B4A2098B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B60E240-9660-48AD-A019-96B2B4A2098B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B60E240-9660-48AD-A019-96B2B4A2098B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B60E240-9660-48AD-A019-96B2B4A2098B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
