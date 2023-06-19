@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ivan\\Documents\\GitHub\\csharp\\Console03\\uvjetnogrananjeif\\uvjetnogrananjeif.csproj",
-      "projectName": "uvjetnogrananjeif",
-      "projectPath": "C:\\Users\\Ivan\\Documents\\GitHub\\csharp\\Console03\\uvjetnogrananjeif\\uvjetnogrananjeif.csproj",
+      "projectUniqueName": "C:\\Users\\Ivan\\Documents\\GitHub\\csharp\\Console03\\uvjetnogrananjeif\\1.uvjetnogrananjeif.csproj",
+      "projectName": "1.uvjetnogrananjeif",
+      "projectPath": "C:\\Users\\Ivan\\Documents\\GitHub\\csharp\\Console03\\uvjetnogrananjeif\\1.uvjetnogrananjeif.csproj",
       "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Ivan\\Documents\\GitHub\\csharp\\Console03\\uvjetnogrananjeif\\obj\\",
       "projectStyle": "PackageReference",

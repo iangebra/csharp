@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ivan\\Documents\\GitHub\\csharp\\Console03\\nizovi\\nizovi.csproj",
-      "projectName": "nizovi",
-      "projectPath": "C:\\Users\\Ivan\\Documents\\GitHub\\csharp\\Console03\\nizovi\\nizovi.csproj",
+      "projectUniqueName": "C:\\Users\\Ivan\\Documents\\GitHub\\csharp\\Console03\\nizovi\\3. nizovi.csproj",
+      "projectName": "3. nizovi",
+      "projectPath": "C:\\Users\\Ivan\\Documents\\GitHub\\csharp\\Console03\\nizovi\\3. nizovi.csproj",
       "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Ivan\\Documents\\GitHub\\csharp\\Console03\\nizovi\\obj\\",
       "projectStyle": "PackageReference",

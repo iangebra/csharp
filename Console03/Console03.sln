@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uvjetnogrananjeif", "uvjetnogrananjeif\uvjetnogrananjeif.csproj", "{A68241CE-7826-4D48-A726-1762BDCB5ECD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.uvjetnogrananjeif", "uvjetnogrananjeif\1.uvjetnogrananjeif.csproj", "{A68241CE-7826-4D48-A726-1762BDCB5ECD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uvjetnogrananjeswitch", "uvjetnogrananjeswitch\uvjetnogrananjeswitch.csproj", "{9DFD05CD-9345-4F77-9A52-BF6872C2537F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.uvjetnogrananjeswitch", "uvjetnogrananjeswitch\2.uvjetnogrananjeswitch.csproj", "{9DFD05CD-9345-4F77-9A52-BF6872C2537F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nizovi", "nizovi\nizovi.csproj", "{71BC798E-55D2-4D60-9BFF-C7AD2D0D5DBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. nizovi", "nizovi\3. nizovi.csproj", "{71BC798E-55D2-4D60-9BFF-C7AD2D0D5DBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

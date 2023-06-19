@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ivan\\Documents\\GitHub\\csharp\\Console03\\uvjetnogrananjeswitch\\uvjetnogrananjeswitch.csproj",
-      "projectName": "uvjetnogrananjeswitch",
-      "projectPath": "C:\\Users\\Ivan\\Documents\\GitHub\\csharp\\Console03\\uvjetnogrananjeswitch\\uvjetnogrananjeswitch.csproj",
+      "projectUniqueName": "C:\\Users\\Ivan\\Documents\\GitHub\\csharp\\Console03\\uvjetnogrananjeswitch\\2.uvjetnogrananjeswitch.csproj",
+      "projectName": "2.uvjetnogrananjeswitch",
+      "projectPath": "C:\\Users\\Ivan\\Documents\\GitHub\\csharp\\Console03\\uvjetnogrananjeswitch\\2.uvjetnogrananjeswitch.csproj",
       "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Ivan\\Documents\\GitHub\\csharp\\Console03\\uvjetnogrananjeswitch\\obj\\",
       "projectStyle": "PackageReference",
