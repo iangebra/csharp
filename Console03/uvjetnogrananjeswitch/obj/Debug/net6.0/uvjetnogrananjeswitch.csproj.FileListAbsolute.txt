@@ -1,0 +1,15 @@
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeswitch\obj\Debug\net6.0\uvjetnogrananjeswitch.csproj.AssemblyReference.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeswitch\obj\Debug\net6.0\uvjetnogrananjeswitch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeswitch\obj\Debug\net6.0\uvjetnogrananjeswitch.AssemblyInfoInputs.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeswitch\obj\Debug\net6.0\uvjetnogrananjeswitch.AssemblyInfo.cs
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeswitch\obj\Debug\net6.0\uvjetnogrananjeswitch.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeswitch\bin\Debug\net6.0\uvjetnogrananjeswitch.exe
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeswitch\bin\Debug\net6.0\uvjetnogrananjeswitch.deps.json
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeswitch\bin\Debug\net6.0\uvjetnogrananjeswitch.runtimeconfig.json
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeswitch\bin\Debug\net6.0\uvjetnogrananjeswitch.dll
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeswitch\bin\Debug\net6.0\uvjetnogrananjeswitch.pdb
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeswitch\obj\Debug\net6.0\uvjetnogrananjeswitch.dll
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeswitch\obj\Debug\net6.0\refint\uvjetnogrananjeswitch.dll
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeswitch\obj\Debug\net6.0\uvjetnogrananjeswitch.pdb
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeswitch\obj\Debug\net6.0\uvjetnogrananjeswitch.genruntimeconfig.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeswitch\obj\Debug\net6.0\ref\uvjetnogrananjeswitch.dll
