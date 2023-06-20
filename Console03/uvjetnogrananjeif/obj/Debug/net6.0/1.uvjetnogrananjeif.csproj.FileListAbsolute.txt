@@ -1,0 +1,15 @@
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeif\bin\Debug\net6.0\1.uvjetnogrananjeif.exe
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeif\bin\Debug\net6.0\1.uvjetnogrananjeif.deps.json
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeif\bin\Debug\net6.0\1.uvjetnogrananjeif.runtimeconfig.json
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeif\bin\Debug\net6.0\1.uvjetnogrananjeif.dll
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeif\bin\Debug\net6.0\1.uvjetnogrananjeif.pdb
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeif\obj\Debug\net6.0\1.uvjetnogrananjeif.csproj.AssemblyReference.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeif\obj\Debug\net6.0\1.uvjetnogrananjeif.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeif\obj\Debug\net6.0\1.uvjetnogrananjeif.AssemblyInfoInputs.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeif\obj\Debug\net6.0\1.uvjetnogrananjeif.AssemblyInfo.cs
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeif\obj\Debug\net6.0\1.uvjetnogrananjeif.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeif\obj\Debug\net6.0\1.uvjetnogrananjeif.dll
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeif\obj\Debug\net6.0\refint\1.uvjetnogrananjeif.dll
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeif\obj\Debug\net6.0\1.uvjetnogrananjeif.pdb
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeif\obj\Debug\net6.0\1.uvjetnogrananjeif.genruntimeconfig.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console03\uvjetnogrananjeif\obj\Debug\net6.0\ref\1.uvjetnogrananjeif.dll
