@@ -1,0 +1,15 @@
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\forpetlja\bin\Debug\net6.0\forpetlja.exe
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\forpetlja\bin\Debug\net6.0\forpetlja.deps.json
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\forpetlja\bin\Debug\net6.0\forpetlja.runtimeconfig.json
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\forpetlja\bin\Debug\net6.0\forpetlja.dll
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\forpetlja\bin\Debug\net6.0\forpetlja.pdb
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\forpetlja\obj\Debug\net6.0\forpetlja.csproj.AssemblyReference.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\forpetlja\obj\Debug\net6.0\forpetlja.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\forpetlja\obj\Debug\net6.0\forpetlja.AssemblyInfoInputs.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\forpetlja\obj\Debug\net6.0\forpetlja.AssemblyInfo.cs
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\forpetlja\obj\Debug\net6.0\forpetlja.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\forpetlja\obj\Debug\net6.0\forpetlja.dll
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\forpetlja\obj\Debug\net6.0\refint\forpetlja.dll
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\forpetlja\obj\Debug\net6.0\forpetlja.pdb
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\forpetlja\obj\Debug\net6.0\forpetlja.genruntimeconfig.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\forpetlja\obj\Debug\net6.0\ref\forpetlja.dll
