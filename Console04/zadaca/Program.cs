@@ -1,6 +1,4 @@
-﻿
-
-Console.WriteLine("----------------------");
+﻿Console.WriteLine("----------------------");
 Console.WriteLine(": : :  TABLICA  MNOZENJA  : : :");
 
 Console.WriteLine("----------------------");
@@ -184,10 +182,6 @@ Console.WriteLine();
 for (int i = 1; i <= 9; i++)
 {
     s = "    " + "-";
-    Console.Write(s[^4..]);
-    
-
+    Console.Write(s[^4..]);    
 }
 Console.WriteLine();
-
-
