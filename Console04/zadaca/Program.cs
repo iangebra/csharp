@@ -100,3 +100,94 @@ Console.WriteLine("----------------------");
 
 
 
+
+
+
+
+
+
+string s;
+
+for (int i = 1; i <= 9; i++)
+{
+    s = "    " + "-";
+    Console.Write(s[^4..]);
+
+
+}
+Console.WriteLine();
+
+
+for (int k = 1; k <= 9; k++)
+    {
+        s = "    " +  k;
+        Console.Write(s[^4..]);
+    }
+    Console.WriteLine();
+
+for (int k = 2; k <= 18; k = k + 2)
+{
+    s = "    " + k;
+    Console.Write(s[^4..]);
+}
+Console.WriteLine();
+for (int k = 3; k <= 27; k = k + 3)
+{
+    s = "    " + k;
+    Console.Write(s[^4..]);
+}
+Console.WriteLine();
+
+for (int k = 4; k <= 36; k = k + 4)
+{
+    s = "    " + k;
+    Console.Write(s[^4..]);
+}
+Console.WriteLine();
+
+for (int k = 5; k <= 45; k = k + 5)
+{
+    s = "    " + k;
+    Console.Write(s[^4..]);
+}
+Console.WriteLine();
+
+for (int k = 6; k <= 54; k = k + 6)
+{
+    s = "    " + k;
+    Console.Write(s[^4..]);
+}
+Console.WriteLine();
+
+for (int k = 7; k <= 63; k = k + 7)
+{
+    s = "    " + k;
+    Console.Write(s[^4..]);
+}
+Console.WriteLine();
+
+for (int k = 8; k <= 72; k = k + 8)
+{
+    s = "    " + k;
+    Console.Write(s[^4..]);
+}
+Console.WriteLine();
+
+for (int k = 9; k <= 81; k = k + 9)
+{
+    s = "    " + k;
+    Console.Write(s[^4..]);
+}
+Console.WriteLine();
+
+
+for (int i = 1; i <= 9; i++)
+{
+    s = "    " + "-";
+    Console.Write(s[^4..]);
+    
+
+}
+Console.WriteLine();
+
+
