@@ -1,0 +1,15 @@
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ciklicna matrica\bin\Debug\net6.0\ciklicna matrica.exe
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ciklicna matrica\bin\Debug\net6.0\ciklicna matrica.deps.json
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ciklicna matrica\bin\Debug\net6.0\ciklicna matrica.runtimeconfig.json
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ciklicna matrica\bin\Debug\net6.0\ciklicna matrica.dll
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ciklicna matrica\bin\Debug\net6.0\ciklicna matrica.pdb
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ciklicna matrica\obj\Debug\net6.0\ciklicna matrica.csproj.AssemblyReference.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ciklicna matrica\obj\Debug\net6.0\ciklicna matrica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ciklicna matrica\obj\Debug\net6.0\ciklicna matrica.AssemblyInfoInputs.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ciklicna matrica\obj\Debug\net6.0\ciklicna matrica.AssemblyInfo.cs
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ciklicna matrica\obj\Debug\net6.0\ciklicna matrica.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ciklicna matrica\obj\Debug\net6.0\ciklicna matrica.dll
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ciklicna matrica\obj\Debug\net6.0\refint\ciklicna matrica.dll
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ciklicna matrica\obj\Debug\net6.0\ciklicna matrica.pdb
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ciklicna matrica\obj\Debug\net6.0\ciklicna matrica.genruntimeconfig.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ciklicna matrica\obj\Debug\net6.0\ref\ciklicna matrica.dll

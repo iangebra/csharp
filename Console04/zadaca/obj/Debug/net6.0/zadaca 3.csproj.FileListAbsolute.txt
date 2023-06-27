@@ -1,0 +1,15 @@
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\zadaca\bin\Debug\net6.0\zadaca 3.exe
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\zadaca\bin\Debug\net6.0\zadaca 3.deps.json
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\zadaca\bin\Debug\net6.0\zadaca 3.runtimeconfig.json
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\zadaca\bin\Debug\net6.0\zadaca 3.dll
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\zadaca\bin\Debug\net6.0\zadaca 3.pdb
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\zadaca\obj\Debug\net6.0\zadaca 3.csproj.AssemblyReference.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\zadaca\obj\Debug\net6.0\zadaca 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\zadaca\obj\Debug\net6.0\zadaca 3.AssemblyInfoInputs.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\zadaca\obj\Debug\net6.0\zadaca 3.AssemblyInfo.cs
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\zadaca\obj\Debug\net6.0\zadaca 3.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\zadaca\obj\Debug\net6.0\zadaca 3.dll
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\zadaca\obj\Debug\net6.0\refint\zadaca 3.dll
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\zadaca\obj\Debug\net6.0\zadaca 3.pdb
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\zadaca\obj\Debug\net6.0\zadaca 3.genruntimeconfig.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\zadaca\obj\Debug\net6.0\ref\zadaca 3.dll
