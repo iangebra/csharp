@@ -64,12 +64,12 @@ for (int i = 0; i < redaka; i++)
 Console.WriteLine("***********************");
 
 
-for (int i = 1; i <= stupaca; i++)
+for (int i = 1; i < stupaca; i++)
 {
-    matrica[redaka - 2, stupaca - i] = b--;
+    matrica[0,stupaca - i] = b++;
 }
 
-for(int i = 0; i < redaka; i++)
+for (int i = 0; i < redaka; i++)
 {
     for (int j = 0; j < stupaca; j++)
     {
