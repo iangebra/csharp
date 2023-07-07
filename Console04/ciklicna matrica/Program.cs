@@ -18,10 +18,10 @@ for (int i = redaka - 2; i >= 0; i--)
 }
 
 //desno
-for (int i = 1; i <= stupaca-1; i++)
-   
-    {
-    matrica[0,i] = b++;
+for (int i = 1; i <= stupaca - 1; i++)
+
+{
+    matrica[0, i] = b++;
 }
 
 //dole
@@ -56,7 +56,7 @@ for (int i = 2; i <= stupaca - 3; i++)
 
 //jos jednom lijevo i ispis
 
-for (int i = 3; i < stupaca-1; i++)
+for (int i = 3; i < stupaca - 1; i++)
 {
     matrica[redaka - 3, stupaca - i] = b++;
 }
