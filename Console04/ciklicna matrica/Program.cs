@@ -1,71 +1,53 @@
-﻿int redaka = 5, stupaca = 5;
+﻿Console.Write("Broj redaka: ");
+int redovi = int.Parse(Console.ReadLine());
 
-int[,] matrica = new int[redaka, stupaca];
-
-int b = 1;
-string razmak;
-
-//lijevo
-for (int i = 1; i <= stupaca; i++)
+Console.Write("Broj stupaca: ");
+int stupci = int.Parse(Console.ReadLine());
 {
-    matrica[redaka - 1, stupaca - i] = b++;
-}
+        int[,] matrica = new int[redovi, stupci];
+        int value = 1;
+        int prvired = 0, zadnjired = redovi - 1, prvistupac = 0, zadnjistupac = stupci - 1;
 
-//gore
-for (int i = redaka - 2; i >= 0; i--)
-{
-    matrica[i, 0] = b++;
-}
+        while (prvired <= zadnjired && prvistupac <= zadnjistupac)
+        {
+            
 
-//desno
-for (int i = 1; i <= stupaca - 1; i++)
+            for (int i = zadnjistupac; i >= prvistupac; i--)
+            {
+                matrica[zadnjired, i] = value++;
+            }
+            zadnjired--;
 
-{
-    matrica[0, i] = b++;
-}
+            if (prvistupac <= zadnjistupac)
+            {
+                for (int i = zadnjired; i >= prvired; i--)
+                {
+                    matrica[i, prvistupac] = value++;
+                }
+                prvistupac++;
+            }
 
-//dole
-for (int i = 1; i <= stupaca - 2; i++)
-{
-    matrica[i, stupaca - 1] = b++;
-}
-
-//opet lijevo
-for (int i = 3; i >= stupaca - 4; i--)
-{
-    matrica[3, i] = b++;
-}
-
-//opet gore
-for (int i = 2; i >= redaka - 4; i--)
-{
-    matrica[i, 1] = b++;
-}
-
-//opet desno
-for (int i = 2; i <= stupaca - 2; i++)
-{
-    matrica[1, i] = b++;
-}
-
-//opet dole
-for (int i = 2; i <= stupaca - 3; i++)
-{
-    matrica[i, stupaca - 2] = b++;
-}
-
-//jos jednom lijevo i ispis
-
-for (int i = 3; i < stupaca - 1; i++)
-{
-    matrica[redaka - 3, stupaca - i] = b++;
-}
-for (int i = 0; i < redaka; i++)
-{
-    for (int j = 0; j < stupaca; j++)
-    {
-        razmak = "   " + matrica[i, j];
-        Console.Write(razmak[^4..]);
+            if (prvired <= zadnjired)
+            {
+                for (int i = prvistupac; i <= zadnjistupac; i++)
+                {
+                    matrica[prvired, i] = value++;
+                }
+                prvired++;
+                for (int i = prvired; i <= zadnjired; i++)
+                {
+                    matrica[i, zadnjistupac] = value++;
+                }
+                zadnjistupac--;
+            }
+        }
+        
+        for (int i = 0; i < redovi; i++)
+        {
+            for (int j = 0; j < stupci; j++)
+            {
+                Console.Write(matrica[i, j] + "\t");
+            }
+            Console.WriteLine();
+        }
     }
-    Console.WriteLine();
-}
