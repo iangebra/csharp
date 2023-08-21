@@ -1,0 +1,15 @@
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ljubavni kalkulator\bin\Debug\net6.0\ljubavni kalkulator.exe
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ljubavni kalkulator\bin\Debug\net6.0\ljubavni kalkulator.deps.json
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ljubavni kalkulator\bin\Debug\net6.0\ljubavni kalkulator.runtimeconfig.json
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ljubavni kalkulator\bin\Debug\net6.0\ljubavni kalkulator.dll
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ljubavni kalkulator\bin\Debug\net6.0\ljubavni kalkulator.pdb
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ljubavni kalkulator\obj\Debug\net6.0\ljubavni kalkulator.csproj.AssemblyReference.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ljubavni kalkulator\obj\Debug\net6.0\ljubavni kalkulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ljubavni kalkulator\obj\Debug\net6.0\ljubavni kalkulator.AssemblyInfoInputs.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ljubavni kalkulator\obj\Debug\net6.0\ljubavni kalkulator.AssemblyInfo.cs
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ljubavni kalkulator\obj\Debug\net6.0\ljubavni kalkulator.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ljubavni kalkulator\obj\Debug\net6.0\ljubavni kalkulator.dll
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ljubavni kalkulator\obj\Debug\net6.0\refint\ljubavni kalkulator.dll
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ljubavni kalkulator\obj\Debug\net6.0\ljubavni kalkulator.pdb
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ljubavni kalkulator\obj\Debug\net6.0\ljubavni kalkulator.genruntimeconfig.cache
+C:\Users\Ivan\Documents\GitHub\csharp\Console04\ljubavni kalkulator\obj\Debug\net6.0\ref\ljubavni kalkulator.dll
