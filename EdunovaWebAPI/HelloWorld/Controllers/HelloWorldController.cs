@@ -85,5 +85,3 @@ namespace HelloWorld.Controllers
     // Kreirati rutu /HelloWorld/ciklicna
     // koja prima dva parametra (x i y) a vraća
     // cikličnu matricu kao dvodimenzionalni niz brojeva
-
-
