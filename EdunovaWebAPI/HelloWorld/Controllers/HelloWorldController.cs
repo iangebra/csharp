@@ -61,10 +61,67 @@ namespace HelloWorld.Controllers
             return rez; 
         }
 
-   
+        [HttpGet]
+        [Route("ciklicna")]
+        public int[,] matrica(int redovi, int stupci)
+
+                  
+            {
+                int[,] matrica = new int[redovi, stupci];
+                int value = 1;
+                int prvired = 0, zadnjired = redovi - 1, prvistupac = 0, zadnjistupac = stupci - 1;
+
+                while (prvired <= zadnjired && prvistupac <= zadnjistupac)
+                {
+
+
+                    for (int i = zadnjistupac; i >= prvistupac; i--)
+                    {
+                        matrica[zadnjired, i] = value++;
+                    }
+                    zadnjired--;
+
+                    if (prvistupac <= zadnjistupac)
+                    {
+                        for (int i = zadnjired; i >= prvired; i--)
+                        {
+                            matrica[i, prvistupac] = value++;
+                        }
+                        prvistupac++;
+                    }
+
+                    if (prvired <= zadnjired)
+                    {
+                        for (int i = prvistupac; i <= zadnjistupac; i++)
+                        {
+                            matrica[prvired, i] = value++;
+                        }
+                        prvired++;
+                        for (int i = prvired; i <= zadnjired; i++)
+                        {
+                            matrica[i, zadnjistupac] = value++;
+                        }
+                        zadnjistupac--;
+                    }
+                }
+
+                for (int i = 0; i < redovi; i++)
+                {
+                    for (int j = 0; j < stupci; j++)
+                    {
+                        Console.Write(matrica[i, j] + "\t");
+                    }
+                    Console.WriteLine();
+                }
+                return (matrica);
+            }
+
+
+
+        }
         
     } 
-}
+
     //  Kreirajte rutu /HelloWorld/zad1
     //  koja ne prima parametre i vraća Vaše ime
 
