@@ -34,33 +34,6 @@ namespace HelloWorld.Controllers
             return "Hello " + s + " " + i;
         }
 
-        [HttpGet]
-        [Route("zad1")]
-        public string ime()
-        {
-            return "ivan";
-        }
-
-        [HttpGet]
-        [Route("zad2")]
-        public int zbroj(int i = 0, int j = 0)
-        {
-            return i + j;
-        }
-
-
-        [HttpGet]
-        [Route("zad3")]
-        public string ponavljanje(int j)
-
-        {
-            string rez = "";
-            for (int i = 0; i < j; i++)
-            {
-                rez = rez + "osijek ";
-            }
-            return rez;
-        }
         //  Kreirajte rutu /HelloWorld/zad1
         //  koja ne prima parametre i vraća Vaše ime
 
@@ -172,61 +145,6 @@ namespace HelloWorld.Controllers
 
             }
 
-            return new JsonResult(JsonConvert.SerializeObject(matrica));
-        }
-
-        [HttpGet]
-        [Route("ciklicna")]
-        public IActionResult matrica(int redovi, int stupci)
-
-
-        {
-            int[,] matrica = new int[redovi, stupci];
-            int value = 1;
-            int prvired = 0, zadnjired = redovi - 1, prvistupac = 0, zadnjistupac = stupci - 1;
-
-            while (prvired <= zadnjired && prvistupac <= zadnjistupac)
-            {
-
-
-                for (int i = zadnjistupac; i >= prvistupac; i--)
-                {
-                    matrica[zadnjired, i] = value++;
-                }
-                zadnjired--;
-
-                if (prvistupac <= zadnjistupac)
-                {
-                    for (int i = zadnjired; i >= prvired; i--)
-                    {
-                        matrica[i, prvistupac] = value++;
-                    }
-                    prvistupac++;
-                }
-
-                if (prvired <= zadnjired)
-                {
-                    for (int i = prvistupac; i <= zadnjistupac; i++)
-                    {
-                        matrica[prvired, i] = value++;
-                    }
-                    prvired++;
-                    for (int i = prvired; i <= zadnjired; i++)
-                    {
-                        matrica[i, zadnjistupac] = value++;
-                    }
-                    zadnjistupac--;
-                }
-            }
-
-            for (int i = 0; i < redovi; i++)
-            {
-                for (int j = 0; j < stupci; j++)
-                {
-                    Console.Write(matrica[i, j] + "\t");
-                }
-                Console.WriteLine();
-            }
             return new JsonResult(JsonConvert.SerializeObject(matrica));
         }
 
