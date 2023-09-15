@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "qJ6V8SIp5FyRdBmKoB29SKOs1keu88uBOTl/7KR1KoE=",
+  "Hash": "Ep7eYLv0T0dnQl2ryqcBiPionU6Dhz/rkZOApVx/B0g=",
   "Source": "EdunovaApp",
   "BasePath": "_content/EdunovaApp",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "EdunovaApp\\wwwroot",
+      "Source": "EdunovaApp",
+      "ContentRoot": "C:\\Users\\Ivan\\Documents\\GitHub\\csharp\\EdunovaWebAPI\\EdunovaApp\\wwwroot\\",
+      "BasePath": "_content/EdunovaApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Ivan\\Documents\\GitHub\\csharp\\EdunovaWebAPI\\EdunovaApp\\wwwroot\\index.html",
+      "SourceId": "EdunovaApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ivan\\Documents\\GitHub\\csharp\\EdunovaWebAPI\\EdunovaApp\\wwwroot\\",
+      "BasePath": "_content/EdunovaApp",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
 }

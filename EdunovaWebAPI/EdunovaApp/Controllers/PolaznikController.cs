@@ -1,84 +1,96 @@
 ﻿using EdunovaApp.Data;
 using EdunovaApp.Models;
+using EdunovaApp.Models.DTO;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Data.SqlClient;
 
 namespace EdunovaApp.Controllers
 {
     /// <summary>
-    /// Namijenjeno za CRUD operacije na entitetom smjer u bazi
+    /// Namijenjeno za CRUD operacije na entitetom polaznik u bazi
     /// </summary>
     [ApiController]
     [Route("api/v1/[controller]")]
-    public class SmjerController : ControllerBase
+    public class PolaznikController : ControllerBase
     {
 
-        // Dependency injection u controller
-        // https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/adding-model?view=aspnetcore-7.0&tabs=visual-studio#dependency-injection
         private readonly EdunovaContext _context;
 
-        public SmjerController(EdunovaContext context)
+        public PolaznikController(EdunovaContext context)
         {
             _context = context;
         }
 
         /// <summary>
-        /// Dohvaća sve smjerove iz baze
+        /// Dohvaća sve polaznike iz baze
         /// </summary>
         /// <remarks>
         /// Primjer upita:
         ///
-        ///    GET api/v1/Smjer
+        ///    GET api/v1/Polaznik
         ///
         /// </remarks>
-        /// <returns>Smjerovi u bazi</returns>
+        /// <returns>Polaznici u bazi</returns>
         /// <response code="200">Sve je u redu</response>
         /// <response code="400">Zahtjev nije valjan (BadRequest)</response> 
         /// <response code="503">Na azure treba dodati IP u firewall</response> 
         [HttpGet]
         public IActionResult Get()
         {
-            // kontrola ukoliko upit nije dobar
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
-            try
+
+            var polaznici = _context.Polaznik.ToList();
+            if (polaznici == null || polaznici.Count == 0)
             {
-                var smjerovi = _context.Smjer.ToList();
-                if(smjerovi==null || smjerovi.Count == 0)
-                {
-                    return new EmptyResult();
-                }
-                return new JsonResult(_context.Smjer.ToList());
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(StatusCodes.Status503ServiceUnavailable, 
-                                    ex.Message);
+                return new EmptyResult();
             }
 
-            
-            
+            List<PolaznikDTO> vrati = new();
+
+            polaznici.ForEach(p =>
+            {
+                // ovo je ručno presipavanje, kasnije upogonimo automapper
+                var pdto = new PolaznikDTO()
+                {
+                    Sifra = p.Sifra,
+                    Ime = p.Ime,
+                    Prezime = p.Prezime,
+                    Oib = p.Oib,
+                    Email = p.Email
+                };
+
+                vrati.Add(pdto);
+
+
+            });
+
+
+            return Ok(vrati);
+
         }
 
 
+
+
+
         /// <summary>
-        /// Dodaje smjer u bazu
+        /// Dodaje polaznika u bazu
         /// </summary>
         /// <remarks>
         /// Primjer upita:
         ///
-        ///    POST api/v1/Smjer
-        ///    {naziv:"",trajanje:100}
+        ///    POST api/v1/Polaznik
+        ///    {Ime:"",Prezime:""}
         ///
         /// </remarks>
-        /// <returns>Kreirani smjer u bazi s svim podacima</returns>
+        /// <returns>Kreirani polaznik u bazi s svim podacima</returns>
         /// <response code="200">Sve je u redu</response>
         /// <response code="400">Zahtjev nije valjan (BadRequest)</response> 
         /// <response code="503">Na azure treba dodati IP u firewall</response> 
         [HttpPost]
-        public IActionResult Post(Smjer smjer)
+        public IActionResult Post(PolaznikDTO dto)
         {
             if (!ModelState.IsValid)
             {
@@ -87,74 +99,82 @@ namespace EdunovaApp.Controllers
 
             try
             {
-                _context.Smjer.Add(smjer);
-                _context.SaveChanges();
-                return StatusCode(StatusCodes.Status201Created, smjer);
-            }catch (Exception ex)
-            {
-                return StatusCode(StatusCodes.Status503ServiceUnavailable,
-                                   ex.Message);
-            }
-            
+                Polaznik p = new Polaznik()
+                {
+                    Ime = dto.Ime,
+                    Prezime = dto.Prezime,
+                    Oib = dto.Oib,
+                    Email = dto.Email
+                };
 
-            
+                _context.Polaznik.Add(p);
+                _context.SaveChanges();
+                dto.Sifra = p.Sifra;
+                return Ok(dto);
+
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(
+                    StatusCodes.Status503ServiceUnavailable, ex.Message);
+            }
         }
 
 
 
 
+
         /// <summary>
-        /// Mijenja podatke postojećeg smjera u bazi
+        /// Mijenja podatke postojećeg polaznika u bazi
         /// </summary>
         /// <remarks>
         /// Primjer upita:
         ///
-        ///    PUT api/v1/smjer/1
+        ///    PUT api/v1/Polaznik/1
         ///
         /// {
-        ///  "sifra": 0,
-        ///  "naziv": "Novi naziv",
-        ///  "trajanje": 120,
-        ///  "cijena": 890.22,
-        ///  "upisnina": 0,
-        ///  "verificiran": true
+        ///   "sifra": 0,
+        ///   "ime": "string",
+        ///   "prezime": "string",
+        ///   "oib": "string",
+        ///   "email": "string"
         /// }
         ///
         /// </remarks>
-        /// <param name="sifra">Šifra smjera koji se mijenja</param>  
-        /// <returns>Svi poslani podaci od smjera</returns>
+        /// <param name="sifra">Šifra polaznika koji se mijenja</param>  
+        /// <returns>Svi poslani podaci od polaznika</returns>
         /// <response code="200">Sve je u redu</response>
-        /// <response code="204">Nema u bazi smjera kojeg želimo promijeniti</response>
+        /// <response code="204">Nema u bazi polaznika kojeg želimo promijeniti</response>
         /// <response code="415">Nismo poslali JSON</response> 
         /// <response code="503">Na azure treba dodati IP u firewall</response> 
         [HttpPut]
         [Route("{sifra:int}")]
-        public IActionResult Put(int sifra, Smjer smjer) {
-        
-            if (sifra<=0 || smjer==null)
+        public IActionResult Put(int sifra, PolaznikDTO pdto)
+        {
+
+            if (sifra <= 0 || pdto == null)
             {
                 return BadRequest();
             }
 
             try
             {
-                var smjerBaza = _context.Smjer.Find(sifra);
-                if (smjerBaza == null)
+                var polaznikBaza = _context.Polaznik.Find(sifra);
+                if (polaznikBaza == null)
                 {
                     return BadRequest();
                 }
                 // inače se rade Mapper-i
                 // mi ćemo za sada ručno
-                smjerBaza.Naziv = smjer.Naziv;
-                smjerBaza.Trajanje = smjer.Trajanje;
-                smjerBaza.Cijena = smjer.Cijena;
-                smjerBaza.Upisnina = smjer.Upisnina;
-                smjerBaza.Verificiran = smjer.Verificiran;
+                polaznikBaza.Ime = pdto.Ime;
+                polaznikBaza.Prezime = pdto.Prezime;
+                polaznikBaza.Oib = pdto.Oib;
+                polaznikBaza.Email = pdto.Email;
 
-                _context.Smjer.Update(smjerBaza);
+                _context.Polaznik.Update(polaznikBaza);
                 _context.SaveChanges();
-
-                return StatusCode(StatusCodes.Status200OK, smjerBaza);
+                pdto.Sifra = polaznikBaza.Sifra;
+                return StatusCode(StatusCodes.Status200OK, pdto);
 
             }
             catch (Exception ex)
@@ -163,23 +183,25 @@ namespace EdunovaApp.Controllers
                                   ex); // kada se vrati cijela instanca ex tada na klijentu imamo više podataka o grešci
                 // nije dobro vraćati cijeli ex ali za dev je OK
             }
-           
+
+
         }
 
 
+
         /// <summary>
-        /// Briše smjer iz baze
+        /// Briše polaznika iz baze
         /// </summary>
         /// <remarks>
         /// Primjer upita:
         ///
-        ///    DELETE api/v1/smjer/1
+        ///    DELETE api/v1/Polaznik/1
         ///    
         /// </remarks>
-        /// <param name="sifra">Šifra smjera koji se briše</param>  
+        /// <param name="sifra">Šifra polaznika koji se briše</param>  
         /// <returns>Odgovor da li je obrisano ili ne</returns>
         /// <response code="200">Sve je u redu</response>
-        /// <response code="204">Nema u bazi smjera kojeg želimo obrisati</response>
+        /// <response code="204">Nema u bazi polaznika kojeg želimo obrisati</response>
         /// <response code="415">Nismo poslali JSON</response> 
         /// <response code="503">Na azure treba dodati IP u firewall</response> 
         [HttpDelete]
@@ -192,15 +214,15 @@ namespace EdunovaApp.Controllers
                 return BadRequest();
             }
 
-            var smjerBaza = _context.Smjer.Find(sifra);
-            if (smjerBaza == null)
+            var polaznikBaza = _context.Polaznik.Find(sifra);
+            if (polaznikBaza == null)
             {
                 return BadRequest();
             }
 
             try
             {
-                _context.Smjer.Remove(smjerBaza);
+                _context.Polaznik.Remove(polaznikBaza);
                 _context.SaveChanges();
 
                 return new JsonResult("{\"poruka\":\"Obrisano\"}");
@@ -212,6 +234,15 @@ namespace EdunovaApp.Controllers
                 return new JsonResult("{\"poruka\":\"Ne može se obrisati\"}");
 
             }
+
         }
+
+
+
+
+
+
+
+
     }
 }
