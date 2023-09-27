@@ -209,7 +209,10 @@ namespace EdunovaApp.Controllers
             catch (Exception ex)
             {
 
-                return new JsonResult("{\"poruka\":\"Ne može se obrisati\"}");
+                return StatusCode(StatusCodes.Status400BadRequest,
+                                  "Ne može se obrisati smjer jer ima na sebi grupe");
+
+               // new JsonResult("{\"poruka\":\"Ne može se obrisati\"}");
 
             }
         }

@@ -35,6 +35,15 @@ builder.Services.AddSwaggerGen(sgo => { // sgo je instanca klase SwaggerGenOptio
 
 });
 
+// loš naèin, èitati https://code-maze.com/aspnetcore-webapi-best-practices/
+builder.Services.AddCors(opcije =>
+{
+    opcije.AddPolicy("CorsPolicy",
+        builder =>
+        builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+});
+
+
 
 // dodavanje baze podataka
 builder.Services.AddDbContext<EdunovaContext>(o =>
@@ -67,4 +76,7 @@ app.UseHttpsRedirection();
 
 app.MapControllers();
 app.UseStaticFiles();
+
+app.UseCors("CorsPolicy");
+
 app.Run();
